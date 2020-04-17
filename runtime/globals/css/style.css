@@ -6,8 +6,11 @@ body {
 	background-color: #556270;
 	color: #fff;
 	font-size: 16px;
-	padding: 50px 0;
 	user-select: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .title {
