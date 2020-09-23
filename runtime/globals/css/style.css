@@ -10,6 +10,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	overflow: hidden;
 }
 
 @media screen and (max-width: 767px) {
@@ -115,7 +116,7 @@ h1 {
 .btn-generate {
 	background-color: #565b5d;
 	color: #fff;
-	padding: 14px 24px;
+	padding: 12px 24px;
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	text-transform: uppercase;
