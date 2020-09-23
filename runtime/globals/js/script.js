@@ -5,7 +5,7 @@ const starsEuroM = document.querySelector('.stars-em');
 const numbersTot = document.querySelector('.numbers-t');
 const supTot = document.querySelector('.sup-t');
 
-titleEuroM.textContent = 'Euromillion Key Generator';
+titleEuroM.textContent = 'Euromillions Key Generator';
 titleTot.textContent = 'Totoloto Key Generator';
 
 // generate euromillion key
