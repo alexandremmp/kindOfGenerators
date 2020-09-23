@@ -8,7 +8,7 @@ const supTot = document.querySelector('.sup-t');
 titleEuroM.textContent = 'Euromillions Key Generator';
 titleTot.textContent = 'Totoloto Key Generator';
 
-// generate euromillion key
+// generate euromillions key
 function getEKey() {
 	var numbersEM = [];
 	var starsEM = [];
