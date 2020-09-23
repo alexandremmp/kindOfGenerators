@@ -2,48 +2,52 @@
 <html lang="en">
 
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="EuroMillions/Totoloto Keys Generator">
-		<meta name="author" content="Alexandre Pereira">
-		<link rel="shortcut icon" href="runtime/images/favicon/favicon.ico" type="image/x-icon">
-		<link rel="apple-touch-icon" href="runtime/images/favicon/apple-touch-icon.png">
-		<link rel="apple-touch-icon" sizes="57x57" href="runtime/images/favicon/apple-touch-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="runtime/images/favicon/apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="runtime/images/favicon/apple-touch-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="runtime/images/favicon/apple-touch-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="runtime/images/favicon/apple-touch-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="runtime/images/favicon/apple-touch-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="runtime/images/favicon/apple-touch-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="runtime/images/favicon/apple-touch-icon-180x180.png">
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2" />
+		<meta name="description" content="EuroMillions/Totoloto Keys Generator" />
+		<meta name="author" content="Alexandre Pereira" />
+		<link rel="shortcut icon" href="runtime/images/favicon/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="runtime/images/favicon/apple-touch-icon.png" />
+		<link rel="apple-touch-icon" sizes="57x57" href="runtime/images/favicon/apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="runtime/images/favicon/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="runtime/images/favicon/apple-touch-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="runtime/images/favicon/apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="runtime/images/favicon/apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="runtime/images/favicon/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="runtime/images/favicon/apple-touch-icon-152x152.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="runtime/images/favicon/apple-touch-icon-180x180.png" />
 		<title>EuroMillions/Totoloto Keys Generator</title>
-		<link rel="stylesheet" href="runtime/plugins/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
-		<link rel="stylesheet" href="runtime/globals/css/style.css" type="text/css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" />
+		<link rel="stylesheet" href="runtime/globals/css/style.css" type="text/css" />
 	</head>
 
 	<body>
 
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<div class="euromillions">
-						<h2 class="title">EuroMillions Key Generator</h2>
-						<div><span id="euromillionsNumbers"></span> + <span id="euromillionsStars"></span></div>
+		<main>
+			<section>
+				<div class="container">
+					<div class="wrapper">
+						<h1 class="title-em"></h1>
+						<div class="numbers-container">
+							<div class="numbers-inner-container numbers-em"></div>
+							<div class="numbers-inner-container stars-em"></div>
+						</div>
+						<button type="button" onClick="getEKey()" class="btn-generate" aria-label="generate">Give me a key!</button>
 					</div>
-					<div class="totoloto">
-						<h2 class="title">Totoloto Key Generator</h2>
-						<div><span id="totolotoNumbers"></span> + <span id="totolotoSup"></span></div>
+					<div class="wrapper">
+						<h1 class="title-t"></h1>
+						<div class="numbers-container">
+							<div class="numbers-inner-container numbers-t"></div>
+							<div class="numbers-inner-container sup-t"></div>
+						</div>
+						<button type="button" onClick="getTKey()" class="btn-generate" aria-label="generate">Give me a key!</button>
 					</div>
 				</div>
-			</div>
-		</div>
+			</section>
+		</main>
 
-		<script src="runtime/plugins/jquery/3.3.1/jquery.min.js"></script>
-		<script src="runtime/plugins/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="runtime/globals/js/euromillions.js"></script>
-		<script src="runtime/globals/js/totoloto.js"></script>
-		<script src="runtime/globals/js/script.js"></script>
+		<script type="text/javascript" src="runtime/globals/js/script.js"></script>
 
 	</body>
 

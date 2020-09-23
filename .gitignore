@@ -1,1 +1,8 @@
+# MAC OS
 .DS_Store
+
+# IDE
+.vscode
+
+# misc
+Makefile
